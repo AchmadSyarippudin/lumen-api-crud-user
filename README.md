@@ -24,6 +24,7 @@ If you discover a security vulnerability within Lumen, please send an e-mail to 
 The Lumen framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
 ## Cara install 
-1. Clone ke dirokteri 
+1. Clone ke dirokteri htdocs
 2. run composer install 
+3. setting koneksi database di .env
 4. jalankan menggunakan postman 
