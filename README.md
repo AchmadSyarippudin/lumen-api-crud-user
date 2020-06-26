@@ -69,3 +69,5 @@ Show User Rows in MySQL
 ![Show User Rows in MySQL](img/show-user.png "Show User Rows in MySQL")
 
  
+## Link 
+Link artikel Repositori ini ada di [sini.](https://medium.com/@achmadsyarippudin/api-laravel-lumen-b626eb338c17) 
