@@ -33,6 +33,7 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 7. Jalankan file `tbl_user.sql` script d console/ui.
 8. Buka REST API Client yang anda sukai (Saya menggunakan [postman](https://www.postman.com/downloads/)).
 9. Import POSTMAN Collection yg ada d root folder supaya memudahkan testing aplikasinya.
+10. Jalankan `php -S localhost:8000 -t public` di terminal supaya aplikasi kita bisa dites.
 
 ## Screen shot
 
