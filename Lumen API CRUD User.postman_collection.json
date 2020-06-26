@@ -1,0 +1,135 @@
+{
+    "info": {
+        "_postman_id": "d27ec900-89c2-4dcf-8222-1ae783f71f8b",
+        "name": "Lumen API CRUD User",
+        "description": "Lumen API CRUD User",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+    },
+    "item": [
+        {
+            "name": "Add New User",
+            "request": {
+                "method": "POST",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"nama\" : \"Uzumaki Naruto\",\n    \"jk\": \"L\",\n    \"tgl_lahir\": \"2000-06-10\",\n    \"alamat\" : \"Konohagakure\",\n    \"no_hp\": \"081321411511\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8000/v1/users",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "v1",
+                        "users"
+                    ]
+                },
+                "description": "Add New User"
+            },
+            "response": []
+        },
+        {
+            "name": "List All Users",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/v1/users",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "v1",
+                        "users"
+                    ]
+                },
+                "description": "List All Users"
+            },
+            "response": []
+        },
+        {
+            "name": "Update Users By ID",
+            "request": {
+                "method": "PUT",
+                "header": [],
+                "body": {
+                    "mode": "raw",
+                    "raw": "{\n    \"nama\": \"Uzumaki Kasura #Updated\",\n    \"jk\": \"P\",\n    \"tgl_lahir\": \"1980-06-10\",\n    \"alamat\": \"Konohagakure\",\n    \"no_hp\": \"081321411512\",\n    \"created_at\": \"2020-06-26T03:24:01.000000Z\",\n    \"updated_at\": \"2020-06-26T03:24:01.000000Z\"\n}",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    }
+                },
+                "url": {
+                    "raw": "http://localhost:8000/v1/users/2",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "v1",
+                        "users",
+                        "2"
+                    ]
+                },
+                "description": "Update Users By ID"
+            },
+            "response": []
+        },
+        {
+            "name": "Delete User",
+            "request": {
+                "method": "DELETE",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/v1/users/3",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "v1",
+                        "users",
+                        "3"
+                    ]
+                },
+                "description": "Delete User"
+            },
+            "response": []
+        },
+        {
+            "name": "Get Application Key",
+            "request": {
+                "method": "GET",
+                "header": [],
+                "url": {
+                    "raw": "http://localhost:8000/key",
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "8000",
+                    "path": [
+                        "key"
+                    ]
+                },
+                "description": "Get Application Key"
+            },
+            "response": []
+        }
+    ],
+    "protocolProfileBehavior": {}
+}
