@@ -33,4 +33,39 @@ The Lumen framework is open-sourced software licensed under the [MIT license](ht
 7. Jalankan file `tbl_user.sql` script d console/ui.
 8. Buka REST API Client yang anda sukai (Saya menggunakan [postman](https://www.postman.com/downloads/)).
 9. Import POSTMAN Collection yg ada d root folder supaya memudahkan testing aplikasinya.
+
+## Screen shot
+
+Create MySQL Database
+
+![Create MySQL Database](img/create-table.png "Create MySQL Database")
+
+Generate Application Key
+
+![Generate Application Key](img/key.png "Generate Application Key")
+
+Add New User
+
+![Add New User](img/add.png "Add New User")
+
+List All Users
+
+![List All Users](img/list.png "List All Users")
+
+Update User By ID
+
+![Update User By ID](img/update.png "Update User By ID")
+
+Delete user by ID
+
+![Delete user by ID](img/delete.png "Delete user by ID")
+
+Show Create Table
+
+![Show Create Table](img/show-create-table.png "Show Create Table")
+
+Show User Rows in MySQL
+
+![Show User Rows in MySQL](img/show-user.png "Show User Rows in MySQL")
+
  
